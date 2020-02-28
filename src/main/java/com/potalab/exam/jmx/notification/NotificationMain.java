@@ -25,7 +25,5 @@ public class NotificationMain {
         && es.isTerminated()) {
       Thread.sleep(1000);
     }
-
   }
-
 }

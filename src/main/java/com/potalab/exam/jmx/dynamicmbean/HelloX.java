@@ -3,21 +3,20 @@ package com.potalab.exam.jmx.dynamicmbean;
 import javax.management.Attribute;
 import javax.management.AttributeList;
 import javax.management.AttributeNotFoundException;
+import javax.management.DynamicMBean;
 import javax.management.InvalidAttributeValueException;
 import javax.management.MBeanAttributeInfo;
 import javax.management.MBeanException;
 import javax.management.MBeanInfo;
-import javax.management.MBeanNotificationInfo;
 import javax.management.MBeanOperationInfo;
 import javax.management.MBeanParameterInfo;
-import javax.management.Notification;
 import javax.management.ReflectionException;
 
 /**
  * **MBean Implementation**
  *
  */
-public class HelloX implements HelloMBeanX {
+public class HelloX implements DynamicMBean {
 	  private final String name = "Reginald";
     private int cacheSize = DEFAULT_CACHE_SIZE; 
     private static final int DEFAULT_CACHE_SIZE = 200; 
