@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2821f58b-17b9-4daf-adfe-9b759fc53de1" name="Default Changelist" comment="" />
+    <list default="true" id="2821f58b-17b9-4daf-adfe-9b759fc53de1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +40,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="JxmExam" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JxmExam" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -50,6 +67,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YL14n2Q35XGRVfhNUkbRPYZam9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +78,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -74,9 +95,9 @@
       <recent name="com.potalab.exam.jmx.notification" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NotificationMain">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.potalab.exam.jmx.dynamicmbean.Main" />
+  <component name="RunManager" selected="Gradle.JxmExam [build]">
+    <configuration name="DynamicMBeanMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.potalab.exam.jmx.dynamicmbean.DynamicMBeanMain" />
       <module name="JxmExam.main" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +145,7 @@
       <list>
         <item itemvalue="Application.NotificationMain" />
         <item itemvalue="Gradle.JxmExam [build]" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DynamicMBeanMain" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +162,7 @@
       <workItem from="1582706876554" duration="2017000" />
       <workItem from="1582761350085" duration="15744000" />
       <workItem from="1582847067421" duration="10777000" />
+      <workItem from="1582869102081" duration="12888000" />
     </task>
     <servers />
   </component>
@@ -148,34 +170,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1582865865396">
+    <state x="530" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1582874271326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="530" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582865865396" />
+    <state x="530" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582874271326" />
     <state x="466" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582761417621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="466" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1582761417621" />
-    <state width="1485" height="179" key="GridCell.Tab.0.bottom" timestamp="1582866019917">
+    <state width="1485" height="179" key="GridCell.Tab.0.bottom" timestamp="1582902327731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582866019917" />
-    <state width="1485" height="179" key="GridCell.Tab.0.center" timestamp="1582866019917">
+    <state width="1485" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582902327731" />
+    <state width="1485" height="179" key="GridCell.Tab.0.center" timestamp="1582902327731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582866019917" />
-    <state width="1485" height="179" key="GridCell.Tab.0.left" timestamp="1582866019917">
+    <state width="1485" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582902327731" />
+    <state width="1485" height="179" key="GridCell.Tab.0.left" timestamp="1582902327731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582866019917" />
-    <state width="1485" height="179" key="GridCell.Tab.0.right" timestamp="1582866019917">
+    <state width="1485" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582902327731" />
+    <state width="1485" height="179" key="GridCell.Tab.0.right" timestamp="1582902327731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582866019917" />
+    <state width="1485" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582902327731" />
     <state x="198" y="0" key="SettingsEditor" timestamp="1582777559356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="198" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582777559356" />
+    <state x="402" y="87" width="732" height="650" key="find.popup" timestamp="1582875180152">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="402" y="87" width="732" height="650" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582875180152" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1582874039677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582874039677" />
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1582867499958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
