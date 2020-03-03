@@ -2,9 +2,10 @@ package com.potalab.exam.jmx.notification;
 
 public interface HelloMBean {
 
+    public void startProcess();
     public void stopProcess();
     public void sayHello(); 
-    public int add(int x, int y); 
+    public int add(int x, int y);
     
     public String getName(); 
      

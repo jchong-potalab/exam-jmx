@@ -9,6 +9,8 @@ import javax.management.Notification;
 import javax.management.ObjectName;
 import javax.management.RuntimeErrorException;
 import javax.management.RuntimeMBeanException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Hello extends GenericBroadcaster implements Runnable,  HelloMBean, MBeanRegistration {
 
@@ -19,6 +21,21 @@ public class Hello extends GenericBroadcaster implements Runnable,  HelloMBean, 
   private static final int DEFAULT_CACHE_SIZE = 200;
 
   public boolean isStop = false;
+
+  @Override
+  public void startProcess() {
+    ExecutorService es = Executors.newFixedThreadPool(1);
+    es.submit(this);
+    es.shutdown();
+
+    while (!es.isShutdown() || !es.isTerminated()) {
+      try {
+        Thread.sleep(500);
+      } catch (InterruptedException e) {
+        Thread.currentThread().interrupt();
+      }
+    }
+  }
 
   @Override
   public void stopProcess() {
@@ -152,4 +169,6 @@ public class Hello extends GenericBroadcaster implements Runnable,  HelloMBean, 
       heartBeatSeq++;
     }
   }
+
+
 }

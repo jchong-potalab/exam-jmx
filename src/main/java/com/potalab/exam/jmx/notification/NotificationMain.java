@@ -21,8 +21,7 @@ public class NotificationMain {
 
     System.out.println("Waiting forever...");
 
-    while (es.isShutdown()
-        && es.isTerminated()) {
+    while (!es.isShutdown() && !es.isTerminated()) {
       Thread.sleep(1000);
     }
   }
